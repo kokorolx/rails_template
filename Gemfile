@@ -65,3 +65,5 @@ gem "tailwindcss-rails", "~> 0.3.3"
 gem "slim-rails"
 gem 'simple_form'
 gem 'devise'
+
+gem 'rails_admin'
