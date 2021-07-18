@@ -1,0 +1,7 @@
+vi:
+  devise:
+    sigg_in: "Đăng nhập"
+    sigg_up: "Đăng ký"
+    send_reset_password_instruction: "Send password reset instructions"
+    change_your_password: "Đổi mật khẩu"
+    confirm_your_new_password: "Confirm your new password"

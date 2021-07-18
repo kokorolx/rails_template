@@ -30,4 +30,10 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  devise:
+    sigg_in: "Sign in"
+    sigg_up: "Sign up"
+    send_reset_password_instruction: "Send password reset instructions"
+    change_your_password: "Change Your Password"
+    confirm_your_new_password: "Confirm your new password"
+

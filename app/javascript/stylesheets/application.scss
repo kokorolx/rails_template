@@ -3,10 +3,32 @@
 @import "tailwindcss/utilities";
 
 @import "../../assets/stylesheets/welcome.scss";
+@import "toastr/toastr";
+
 
 .field_with_errors {
   @apply text-red-500;
   input {
     @apply border border-red-500;
   }
+}
+
+.error {
+  @apply text-red-500;
+}
+
+.toast{
+    @apply text-white;
+  .toast-error {
+    @apply bg-red-500;
+  }
+
+  .toast-success {
+    @apply bg-green-500;
+  }
+}
+
+input[type="submit"] {
+  @apply cursor-pointer;
+  @apply hover:bg-indigo-800;
 }
